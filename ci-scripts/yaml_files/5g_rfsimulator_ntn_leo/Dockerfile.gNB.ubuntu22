@@ -1,0 +1,4 @@
+FROM oaisoftwarealliance/oai-gnb:2025.w25
+
+RUN apt-get update && apt-get install -y wireshark && apt-get install -y libxcb-cursor-dev && apt install libxcb-cursor0 && export DISPLAY=172.20.224.1:0.0
+

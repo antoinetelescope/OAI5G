@@ -1,0 +1,1276 @@
+[UTIL]   running in SA mode (no --phy-test, --do-ra, --nsa option present)
+[0m[UTIL]   threadCreate() for Tpool0_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool1_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool2_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool3_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool4_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool5_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool6_-1: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for Tpool7_-1: creating thread with affinity ffffffff, priority 97
+[0m[OPT]   OPT disabled
+[0m[HW]   Version: Branch: develop Abrev. Hash: bab05384a4 Date: Wed May 28 22:03:09 2025 +0000
+[0m[NR_RRC]   create TASK_RRC_NRUE 
+[0m[UTIL]   threadCreate() for TASK_RRC_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[UTIL]   threadCreate() for TASK_NAS_NRUE: creating thread with affinity ffffffff, priority 50
+[0m[SIM]   UICC simulation: IMSI=2089900007487, IMEISV=6754567890123413, Ki=fec86ba6eb707ed08905757b1bb44b8f, OPc=C42449363BBAD02B66D16BC975D77CC1, DNN=oai, SST=0x01, SD=0x000001
+[0m[NR_MAC]   [UE0] Initializing MAC
+[0m[NR_MAC]   Initializing dl and ul config_request. num_slots = 10
+[0m[RLC]   Activated srb0 for UE 0
+[0m[UTIL]   threadCreate() for time source iq samples: creating thread with affinity ffffffff, priority 2
+[0m[UTIL]   time manager configuration: [time source: iq_samples] [mode: standalone] [server IP: 127.0.0.1} [server port: 7374] (server IP/port not used)
+[0m[PHY]   Set UE_fo_compensation 0, UE_scan_carrier 0, UE_no_timing_correction 0 
+, chest-freq 0, chest-time 0
+[0m[PHY]   Set UE nb_rx_antenna 1, nb_tx_antenna 1, threequarter_fs 0, ssb_start_subcarrier 60
+[0m[PHY]   SA init parameters. DL freq 2488400000 UL offset -873500000 SSB numerology 0 N_RB_DL 25
+[0m[PHY]   Init: N_RB_DL 25, first_carrier_offset 362, nb_prefix_samples 36,nb_prefix_samples0 40, ofdm_symbol_size 512
+[0m[93m[PHY]   samples_per_subframe 7680/per second 7680000, wCP 7168
+[0m[UTIL]   threadCreate() for SYNC__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for DL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for UL__actor: creating thread with affinity ffffffff, priority 97
+[0m[PHY]   Initializing UE vars for gNB TXant 1, UE RXant 1
+[0m[PHY]   prs_config configuration NOT found..!! Skipped configuring UE for the PRS reception
+[0m[PHY]   HW: Configuring card 0, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 1, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 2, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 3, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 4, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 5, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 6, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   HW: Configuring card 7, sample_rate 7680000.000000, tx/rx num_channels 1/1, duplex_mode FDD
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614900000 Hz, rx_freq 2488400000 Hz, tune_offset 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_gain 0, rx_gain 110
+[0m[PHY]   Intializing UE Threads for instance 0 ...
+[0m[UTIL]   threadCreate() for UEthread_0: creating thread with affinity ffffffff, priority 97
+[0m[UTIL]   threadCreate() for L1_UE_stats_0: creating thread with affinity ffffffff, priority 1
+[0m[HW]   CirSize = 2294324
+[0m[HW]   propagation delay 238.740104 ms, 1833524 samples
+[0m[HW]   Running as client: will connect to a rfsimulator server side
+[0m[HW]   [RRU] has loaded RFSIMULATOR device.
+[0m[HW]   Trying to connect to 127.0.0.1:4043
+[0m[HW]   Connection to 127.0.0.1:4043 established
+[0m[93m[PHY]   SSB position provided
+[0m[93m[NR_PHY]   Starting sync detection
+[0m[PHY]   [UE thread Synch] Running Initial Synch 
+[0m[NR_PHY]   Starting cell search with center freq: 2488400000, bandwidth: 25. Scanning for 1 number of GSCN.
+[0m[NR_PHY]   Scanning GSCN: 0, with SSB offset: 60, SSB Freq: 0.000000
+[0m[PHY]   Initial sync: pbch decoded sucessfully, ssb index 0
+[0m[PHY]   pbch rx ok. rsrp:51 dB/RE, adjust_rxgain:-1 dB
+[0m[NR_PHY]   Cell Detected with GSCN: 0, SSB SC offset: 60, SSB Ref: 0.000000, PSS Corr peak: 90 dB, PSS Corr Average: 60
+[0m[PHY]   [UE0] In synch, rx_offset 36404 samples
+[0m[PHY]   [UE 0] Measured Carrier Frequency offset -2 Hz
+[0m[32m[PHY]   Initial sync successful, PCI: 0
+[0m[PHY]   HW: Configuring channel 0 (rf_chain 0): setting tx_freq 1614899999 Hz, rx_freq 2488399998 Hz, tune_offset 0
+[0m[PHY]   Got synch: hw_slot_offset 9, carrier off -2 Hz, rxgain 0.000000 (DL 2488399998.000000 Hz, UL 1614899998.702058 Hz)
+[0m[32m[PHY]   UE synchronized! decoded_frame_rx=670 UE->init_sync_frame=1 trashed_frames=6
+[0m[PHY]   Resynchronizing RX by 36404 samples
+[0m[HW]   received write reorder clear context
+[0m[32m[NR_RRC]   SIB1 decoded
+[0m[PHY]   N_TA_offset changed from 0 to 100
+[0m[NR_RRC]   [UE 0] Decoding SI
+[0m[32m[NR_RRC]   Found SIB2
+[0m[NR_RRC]   [UE 0] Decoding SI
+[0m[32m[NR_RRC]   Found SIB19
+[0m[PHY]   k_offset = 478 ms (478 slots), ntn_total_time_advance_ms = 477.479160 ms (3667039 samples)
+[0m[MAC]   Initialization of 4-Step CBRA procedure
+[0m[NR_MAC]   PRACH scheduler: Selected RO Frame 761, Slot 9, Symbol 0, Fdm 0
+[0m[PHY]   PRACH [UE 0] in frame.slot 761.9, placing PRACH in position 8702, Msg1/MsgA-Preamble frequency start 0 (k1 0), preamble_offset 0, first_nonzero_root_idx 0, preambleIndex = 2
+[0m[PHY]   RAR-Msg2 decoded
+[0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 007f] Got BI RAR subPDU 5 ms
+[0m[NR_MAC]   [UE 0][RAPROC][RA-RNTI 007f] Got RAPID RAR subPDU
+[0m[32m[NR_MAC]   [UE 0][RAPROC][762.7] Found RAR with the intended RAPID 2
+[0m[93m[MAC]   received TA command 34
+[0m[32m[NR_MAC]   [RAPROC][811.3] RA-Msg3 transmitted
+[0m[32m[MAC]   [UE 0][812.7][RAPROC] 4-Step RA procedure succeeded. CBRA: Contention Resolution is successful.
+[0m[NR_RRC]   [UE0][RAPROC] Logical Channel DL-CCCH (SRB0), Received NR_RRCSetup
+[0m[RLC]   Added srb 1 to UE 0
+[0m[NR_RRC]   State = NR_RRC_CONNECTED
+[0m[NAS]   Generate Initial NAS Message: Registration Request
+[0m[NR_RRC]   [UE 0][RAPROC] Logical Channel UL-DCCH (SRB1), Generating RRCSetupComplete (bytes32)
+[0m[NAS]   [UE 0] Received NR_NAS_CONN_ESTABLISH_IND: asCause 0
+[0m[MAC]   [UE 0] Applying CellGroupConfig from gNodeB
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 1/0
+    Ul harq: 6/0 avg code rate 0.6, avg bit/symbol 2.0, avg per TB: (nb RBs 5.5, nb symbols 13.0)
+[0m[NR_MAC]   [911.0] Received TA_COMMAND 33 TAGID 0 CC_id 0 
+[0m[NR_MAC]   [1011.0] Received TA_COMMAND 28 TAGID 0 CC_id 0 
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 8/0
+    Ul harq: 23/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 13.0)
+[0m[93m[NR_MAC]   NDI indicates re-transmission but computed TBS 736 doesn't match with what previously stored 1608
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 9/0
+    Ul harq: 40/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 10/0
+    Ul harq: 54/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.1, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 11/0
+    Ul harq: 69/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 13/0
+    Ul harq: 83/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 14/0
+    Ul harq: 96/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 15/0
+    Ul harq: 109/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 17/0
+    Ul harq: 123/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 18/0
+    Ul harq: 136/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 19/0
+    Ul harq: 149/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 20/0
+    Ul harq: 162/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 22/0
+    Ul harq: 176/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 23/0
+    Ul harq: 191/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 24/0
+    Ul harq: 205/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 26/0
+    Ul harq: 219/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 27/0
+    Ul harq: 231/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 28/0
+    Ul harq: 244/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 29/0
+    Ul harq: 258/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 31/0
+    Ul harq: 271/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 32/0
+    Ul harq: 284/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 33/0
+    Ul harq: 296/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 35/0
+    Ul harq: 309/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 36/0
+    Ul harq: 322/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 37/0
+    Ul harq: 335/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 38/0
+    Ul harq: 349/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 40/0
+    Ul harq: 361/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 41/0
+    Ul harq: 377/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 42/0
+    Ul harq: 390/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 43/0
+    Ul harq: 404/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 45/0
+    Ul harq: 417/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 46/0
+    Ul harq: 429/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 47/0
+    Ul harq: 443/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 49/0
+    Ul harq: 457/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 50/0
+    Ul harq: 471/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 51/0
+    Ul harq: 484/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 52/0
+    Ul harq: 496/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 54/0
+    Ul harq: 510/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 55/0
+    Ul harq: 523/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 56/0
+    Ul harq: 538/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 58/0
+    Ul harq: 551/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 59/0
+    Ul harq: 563/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 60/0
+    Ul harq: 577/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 61/0
+    Ul harq: 590/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 63/0
+    Ul harq: 603/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 64/0
+    Ul harq: 618/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 65/0
+    Ul harq: 631/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 67/0
+    Ul harq: 644/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 68/0
+    Ul harq: 657/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 69/0
+    Ul harq: 671/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 70/0
+    Ul harq: 684/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 72/0
+    Ul harq: 696/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 73/0
+    Ul harq: 710/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 74/0
+    Ul harq: 724/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 75/0
+    Ul harq: 737/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 77/0
+    Ul harq: 750/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 78/0
+    Ul harq: 764/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 79/0
+    Ul harq: 777/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 81/0
+    Ul harq: 790/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 82/0
+    Ul harq: 803/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 83/0
+    Ul harq: 819/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 84/0
+    Ul harq: 831/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 86/0
+    Ul harq: 845/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 87/0
+    Ul harq: 859/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 88/0
+    Ul harq: 873/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 90/0
+    Ul harq: 886/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 91/0
+    Ul harq: 898/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 92/0
+    Ul harq: 911/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 93/0
+    Ul harq: 924/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 95/0
+    Ul harq: 938/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 96/0
+    Ul harq: 952/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 97/0
+    Ul harq: 964/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 99/0
+    Ul harq: 977/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 100/0
+    Ul harq: 991/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 101/0
+    Ul harq: 1004/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 102/0
+    Ul harq: 1017/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 104/0
+    Ul harq: 1030/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 105/0
+    Ul harq: 1043/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 106/0
+    Ul harq: 1056/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 107/0
+    Ul harq: 1070/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 109/0
+    Ul harq: 1083/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 110/0
+    Ul harq: 1095/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 111/0
+    Ul harq: 1108/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 113/0
+    Ul harq: 1123/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 114/0
+    Ul harq: 1136/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 115/0
+    Ul harq: 1150/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 116/0
+    Ul harq: 1163/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 118/0
+    Ul harq: 1177/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 119/0
+    Ul harq: 1190/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 120/0
+    Ul harq: 1205/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 122/0
+    Ul harq: 1219/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 123/0
+    Ul harq: 1231/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 124/0
+    Ul harq: 1244/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 125/0
+    Ul harq: 1258/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 127/0
+    Ul harq: 1273/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 128/0
+    Ul harq: 1286/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 129/0
+    Ul harq: 1301/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 131/0
+    Ul harq: 1314/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 132/0
+    Ul harq: 1327/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 133/0
+    Ul harq: 1341/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 134/0
+    Ul harq: 1354/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 136/0
+    Ul harq: 1368/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 137/0
+    Ul harq: 1382/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 138/0
+    Ul harq: 1395/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 139/0
+    Ul harq: 1410/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 141/0
+    Ul harq: 1423/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 142/0
+    Ul harq: 1436/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 143/0
+    Ul harq: 1451/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 145/0
+    Ul harq: 1466/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 146/0
+    Ul harq: 1479/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 147/0
+    Ul harq: 1493/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 148/0
+    Ul harq: 1506/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 150/0
+    Ul harq: 1519/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 151/0
+    Ul harq: 1533/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 152/0
+    Ul harq: 1547/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 154/0
+    Ul harq: 1561/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 155/0
+    Ul harq: 1574/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 156/0
+    Ul harq: 1588/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 157/0
+    Ul harq: 1601/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 159/0
+    Ul harq: 1614/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 160/0
+    Ul harq: 1628/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 161/0
+    Ul harq: 1642/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 163/0
+    Ul harq: 1656/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 164/0
+    Ul harq: 1671/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 165/0
+    Ul harq: 1684/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 166/0
+    Ul harq: 1698/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 168/0
+    Ul harq: 1710/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 169/0
+    Ul harq: 1723/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 170/0
+    Ul harq: 1737/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 171/0
+    Ul harq: 1751/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 173/0
+    Ul harq: 1764/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 174/0
+    Ul harq: 1776/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 175/0
+    Ul harq: 1790/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 177/0
+    Ul harq: 1805/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 178/0
+    Ul harq: 1819/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 179/0
+    Ul harq: 1833/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 180/0
+    Ul harq: 1846/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 182/0
+    Ul harq: 1859/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 183/0
+    Ul harq: 1872/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 184/0
+    Ul harq: 1886/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 186/0
+    Ul harq: 1899/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 187/0
+    Ul harq: 1912/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 188/0
+    Ul harq: 1925/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 189/0
+    Ul harq: 1938/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 191/0
+    Ul harq: 1951/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 192/0
+    Ul harq: 1964/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 193/0
+    Ul harq: 1976/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 195/0
+    Ul harq: 1990/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 196/0
+    Ul harq: 2005/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 197/0
+    Ul harq: 2020/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 198/0
+    Ul harq: 2034/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 200/0
+    Ul harq: 2047/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 201/0
+    Ul harq: 2061/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 202/0
+    Ul harq: 2074/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 203/0
+    Ul harq: 2088/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 205/0
+    Ul harq: 2102/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 206/0
+    Ul harq: 2115/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 207/0
+    Ul harq: 2129/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 209/0
+    Ul harq: 2142/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 210/0
+    Ul harq: 2156/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 211/0
+    Ul harq: 2171/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 212/0
+    Ul harq: 2183/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 214/0
+    Ul harq: 2197/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 215/0
+    Ul harq: 2210/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 216/0
+    Ul harq: 2224/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 218/0
+    Ul harq: 2238/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 219/0
+    Ul harq: 2250/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 220/0
+    Ul harq: 2265/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 221/0
+    Ul harq: 2279/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 223/0
+    Ul harq: 2294/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 224/0
+    Ul harq: 2307/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 225/0
+    Ul harq: 2320/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 227/0
+    Ul harq: 2333/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 228/0
+    Ul harq: 2347/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 229/0
+    Ul harq: 2361/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 230/0
+    Ul harq: 2375/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 232/0
+    Ul harq: 2387/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 233/0
+    Ul harq: 2401/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 234/0
+    Ul harq: 2414/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 235/0
+    Ul harq: 2427/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 237/0
+    Ul harq: 2440/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 238/0
+    Ul harq: 2452/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 239/0
+    Ul harq: 2466/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 241/0
+    Ul harq: 2480/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 242/0
+    Ul harq: 2493/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 243/0
+    Ul harq: 2507/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 244/0
+    Ul harq: 2520/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 246/0
+    Ul harq: 2534/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 247/0
+    Ul harq: 2548/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 248/0
+    Ul harq: 2561/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 250/0
+    Ul harq: 2576/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 251/0
+    Ul harq: 2589/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 252/0
+    Ul harq: 2602/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 253/0
+    Ul harq: 2615/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 255/0
+    Ul harq: 2630/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 256/0
+    Ul harq: 2644/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 257/0
+    Ul harq: 2656/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 259/0
+    Ul harq: 2672/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 260/0
+    Ul harq: 2685/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 261/0
+    Ul harq: 2699/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 262/0
+    Ul harq: 2712/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 264/0
+    Ul harq: 2727/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 265/0
+    Ul harq: 2741/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 266/0
+    Ul harq: 2754/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 267/0
+    Ul harq: 2767/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 269/0
+    Ul harq: 2780/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 270/0
+    Ul harq: 2793/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 271/0
+    Ul harq: 2807/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 273/0
+    Ul harq: 2821/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 274/0
+    Ul harq: 2835/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 275/0
+    Ul harq: 2849/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 276/0
+    Ul harq: 2861/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 278/0
+    Ul harq: 2875/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 279/0
+    Ul harq: 2890/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 280/0
+    Ul harq: 2904/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 282/0
+    Ul harq: 2918/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 283/0
+    Ul harq: 2931/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 284/0
+    Ul harq: 2945/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 285/0
+    Ul harq: 2959/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 287/0
+    Ul harq: 2974/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 288/0
+    Ul harq: 2987/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 289/0
+    Ul harq: 2999/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 291/0
+    Ul harq: 3013/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 292/0
+    Ul harq: 3027/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 293/0
+    Ul harq: 3040/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 294/0
+    Ul harq: 3054/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 296/0
+    Ul harq: 3066/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 297/0
+    Ul harq: 3080/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 298/0
+    Ul harq: 3094/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 299/0
+    Ul harq: 3107/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 301/0
+    Ul harq: 3120/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 302/0
+    Ul harq: 3132/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 303/0
+    Ul harq: 3145/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 305/0
+    Ul harq: 3158/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 306/0
+    Ul harq: 3171/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 307/0
+    Ul harq: 3184/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 308/0
+    Ul harq: 3197/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 310/0
+    Ul harq: 3210/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 311/0
+    Ul harq: 3224/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 312/0
+    Ul harq: 3238/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 314/0
+    Ul harq: 3253/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 315/0
+    Ul harq: 3267/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 316/0
+    Ul harq: 3282/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 317/0
+    Ul harq: 3295/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 319/0
+    Ul harq: 3309/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 320/0
+    Ul harq: 3323/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 321/0
+    Ul harq: 3337/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 323/0
+    Ul harq: 3350/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 324/0
+    Ul harq: 3364/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 325/0
+    Ul harq: 3378/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 326/0
+    Ul harq: 3391/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 328/0
+    Ul harq: 3405/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 329/0
+    Ul harq: 3418/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 330/0
+    Ul harq: 3433/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 331/0
+    Ul harq: 3446/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 333/0
+    Ul harq: 3459/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 334/0
+    Ul harq: 3471/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 335/0
+    Ul harq: 3486/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 337/0
+    Ul harq: 3499/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 338/0
+    Ul harq: 3512/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 339/0
+    Ul harq: 3526/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 340/0
+    Ul harq: 3539/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 342/0
+    Ul harq: 3554/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 343/0
+    Ul harq: 3568/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 344/0
+    Ul harq: 3581/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 346/0
+    Ul harq: 3594/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 347/0
+    Ul harq: 3607/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 348/0
+    Ul harq: 3620/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 349/0
+    Ul harq: 3635/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 351/0
+    Ul harq: 3648/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 352/0
+    Ul harq: 3661/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 353/0
+    Ul harq: 3673/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 355/0
+    Ul harq: 3687/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 356/0
+    Ul harq: 3702/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 357/0
+    Ul harq: 3715/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 358/0
+    Ul harq: 3729/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 360/0
+    Ul harq: 3742/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 361/0
+    Ul harq: 3755/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 362/0
+    Ul harq: 3768/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 363/0
+    Ul harq: 3782/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 365/0
+    Ul harq: 3797/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 366/0
+    Ul harq: 3809/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 367/0
+    Ul harq: 3824/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 369/0
+    Ul harq: 3838/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 370/0
+    Ul harq: 3853/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 371/0
+    Ul harq: 3866/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 372/0
+    Ul harq: 3878/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 374/0
+    Ul harq: 3892/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 375/0
+    Ul harq: 3908/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 376/0
+    Ul harq: 3922/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 378/0
+    Ul harq: 3937/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 379/0
+    Ul harq: 3949/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 380/0
+    Ul harq: 3962/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 381/0
+    Ul harq: 3976/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 383/0
+    Ul harq: 3989/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 384/0
+    Ul harq: 4003/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 385/0
+    Ul harq: 4017/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 387/0
+    Ul harq: 4030/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 388/0
+    Ul harq: 4043/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 389/0
+    Ul harq: 4058/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 390/0
+    Ul harq: 4072/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 392/0
+    Ul harq: 4084/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 393/0
+    Ul harq: 4099/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 394/0
+    Ul harq: 4112/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 395/0
+    Ul harq: 4126/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 397/0
+    Ul harq: 4140/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 398/0
+    Ul harq: 4154/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 399/0
+    Ul harq: 4167/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 401/0
+    Ul harq: 4181/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 402/0
+    Ul harq: 4194/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 403/0
+    Ul harq: 4209/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 404/0
+    Ul harq: 4222/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 406/0
+    Ul harq: 4236/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 407/0
+    Ul harq: 4249/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 408/0
+    Ul harq: 4263/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 410/0
+    Ul harq: 4276/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 411/0
+    Ul harq: 4289/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 412/0
+    Ul harq: 4303/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 413/0
+    Ul harq: 4317/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 415/0
+    Ul harq: 4332/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 416/0
+    Ul harq: 4345/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 417/0
+    Ul harq: 4357/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 419/0
+    Ul harq: 4372/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 420/0
+    Ul harq: 4385/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 421/0
+    Ul harq: 4399/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 422/0
+    Ul harq: 4414/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 424/0
+    Ul harq: 4427/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 425/0
+    Ul harq: 4442/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 426/0
+    Ul harq: 4458/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 427/0
+    Ul harq: 4471/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 429/0
+    Ul harq: 4485/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 430/0
+    Ul harq: 4497/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 431/0
+    Ul harq: 4511/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 433/0
+    Ul harq: 4525/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 434/0
+    Ul harq: 4538/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 435/0
+    Ul harq: 4552/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 436/0
+    Ul harq: 4565/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 438/0
+    Ul harq: 4578/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 439/0
+    Ul harq: 4592/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 440/0
+    Ul harq: 4606/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 442/0
+    Ul harq: 4620/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 443/0
+    Ul harq: 4632/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 444/0
+    Ul harq: 4645/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 445/0
+    Ul harq: 4658/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 447/0
+    Ul harq: 4672/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 448/0
+    Ul harq: 4686/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 449/0
+    Ul harq: 4699/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 451/0
+    Ul harq: 4714/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 452/0
+    Ul harq: 4728/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 453/0
+    Ul harq: 4741/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 454/0
+    Ul harq: 4754/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 456/0
+    Ul harq: 4766/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 457/0
+    Ul harq: 4780/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 458/0
+    Ul harq: 4794/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 459/0
+    Ul harq: 4808/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 461/0
+    Ul harq: 4821/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 462/0
+    Ul harq: 4833/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 463/0
+    Ul harq: 4846/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 465/0
+    Ul harq: 4861/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 466/0
+    Ul harq: 4875/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 467/0
+    Ul harq: 4889/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 468/0
+    Ul harq: 4902/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 470/0
+    Ul harq: 4915/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 471/0
+    Ul harq: 4930/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 472/0
+    Ul harq: 4944/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 474/0
+    Ul harq: 4958/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 475/0
+    Ul harq: 4971/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 476/0
+    Ul harq: 4986/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 896.0, cumulated bad DCI 0
+    DL harq: 477/0
+    Ul harq: 5000/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 0.0, cumulated bad DCI 0
+    DL harq: 479/0
+    Ul harq: 5014/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 128.0, cumulated bad DCI 0
+    DL harq: 480/0
+    Ul harq: 5027/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 256.0, cumulated bad DCI 0
+    DL harq: 481/0
+    Ul harq: 5040/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 384.0, cumulated bad DCI 0
+    DL harq: 483/0
+    Ul harq: 5054/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 512.0, cumulated bad DCI 0
+    DL harq: 484/0
+    Ul harq: 5067/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 640.0, cumulated bad DCI 0
+    DL harq: 485/0
+    Ul harq: 5081/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0m[NR_MAC]   UE 0 stats sfn: 768.0, cumulated bad DCI 0
+    DL harq: 486/0
+    Ul harq: 5095/0 avg code rate 0.7, avg bit/symbol 2.0, avg per TB: (nb RBs 5.0, nb symbols 13.0)
+[0mPress ^C again to trigger immediate shutdown
+[NAS]   [UE 0] Received NAS_DEREGISTRATION_REQ
+[0m[93m[NAS]   No GUTI, cannot trigger deregistration request.
+[0m[NR_RRC]   RRC moved into IDLE state
+[0m[NAS]   [UE 0] Received NR_NAS_CONN_RELEASE_IND: cause OTHER
+[0m[32m[NR_MAC]   Received detach indication
+[0mCMDLINE: "./ran_build/build/nr-uesoftmodem" "-O" "../targets/PROJECTS/GENERIC-NR-5GC/CONF/ue.conf" "--band" "254" "-C" "2488400000" "--CO" "-873500000" "-r" "25" "--numerology" "0" "--ssb" "60" "--rfsim" "--rfsimulator.prop_delay" "238.74" "--noS1" 
+[CONFIG] function config_libconfig_init returned 0
+UE threads created by 1445
+TYPE <CTRL-C> TO TERMINATE
+Initializing random number generator, seed 4991297209558792224
+Entering ITTI signals handler
+TYPE <CTRL-C> TO TERMINATE
+Returned from ITTI signal handler
+oai_exit=1
+uTIL]   threadCreate() for TASK_RRC_GNB: creating thread with affinity ffffffff, priority 50
+Reading 'GNBSParams' section from the config file
+[NR_RRC]   Entering main loop of NR_RRC message task
+Reading 'GNBSParams' section from the config file
+[GTPU]   Configuring GTPu
+Reading 'NETParams' section from the config file
+[GTPU]   SA mode
+[GTPU]   Configuring GTPu address : 192.168.71.140, port : 2152
+[GTPU]   Initializing UDP for local address 192.168.71.140 with port 2152
+[GTPU]   bind: Cannot assign requested address
+[GTPU]   failed to bind socket: 192.168.71.140 2152
+[GTPU]   can't create GTP-U instance
+[GTPU]   Created gtpu instance id: -1
+[E1AP]   Failed to create CUUP N3 UDP listener
+[NR_RRC]   Accepting new CU-UP ID 3584 name 5G-GOA-gNB (assoc_id -1)
+[UTIL]   threadCreate() for TASK_GNB_APP: creating thread with affinity ffffffff, priority 50
+[NR_RRC]   Received F1 Setup Request from gNB_DU 3584 (5G-GOA-gNB) on assoc_id -1
+[NR_RRC]   Accepting DU 3584 (5G-GOA-gNB), sending F1 Setup Response
+[NR_RRC]   DU uses RRC version 17.3.0
+[MAC]   received F1 Setup Response from CU (null)
+[MAC]   CU uses RRC version 17.3.0
+Segmentation fault
