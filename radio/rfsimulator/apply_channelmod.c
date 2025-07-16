@@ -109,7 +109,7 @@ void rxAddInput(const c16_t *input_sig,
 
       const double prop_delay = (dist_ue_sat + dist_sat_gnb) / c;
       if (channelDesc->enable_dynamic_delay)
-        channelDesc->channel_offset = 2 * prop_delay * channelDesc->sampling_rate;
+        channelDesc->channel_offset = prop_delay * channelDesc->sampling_rate;
 
       const double f_Doppler_shift_ue_sat = (-vel_ue_sat / c) * channelDesc->center_freq;
       if (channelDesc->enable_dynamic_Doppler)
@@ -143,7 +143,7 @@ void rxAddInput(const c16_t *input_sig,
 
       const double prop_delay = (dist_gnb_sat + dist_sat_ue) / c;
       if (channelDesc->enable_dynamic_delay)
-        channelDesc->channel_offset = 2 * prop_delay * channelDesc->sampling_rate;
+        channelDesc->channel_offset = prop_delay * channelDesc->sampling_rate;
 
       const double f_Doppler_shift_sat_ue = (vel_sat_ue / (c - vel_sat_ue)) * channelDesc->center_freq;
       if (channelDesc->enable_dynamic_Doppler)
