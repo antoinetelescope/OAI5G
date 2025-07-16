@@ -1112,7 +1112,7 @@ static void tbpf_dl(module_id_t module_id,
 
     return max;
   }
-  int TokenBank[] = {0,0};
+  int TokenBank[] = {0,0,0,0,0,0,0,0};
   gNB_MAC_INST *mac = RC.nrmac[module_id];
   NR_ServingCellConfigCommon_t *scc = mac->common_channels[0].ServingCellConfigCommon;
 
@@ -1235,7 +1235,7 @@ static void tbpf_dl(module_id_t module_id,
 
     LOG_I(NR_MAC, "[DL] Tokens for UE 1 : %d, Tokens for UE 2 : %d, So the largest is %d\n", TokenBank[0], TokenBank[1], largest(TokenBank, 2));
 
-    if (sched_ctrl->token_count >= token_threshold && TokenBank[ID-1] == largest(TokenBank, 2)) {
+    if (sched_ctrl->token_count >= token_threshold && TokenBank[ID-1] == largest(TokenBank, 8)) {
 
       if (sched_ctrl->available_dl_harq.head < 0) {
         iterator++;
