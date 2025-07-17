@@ -2286,7 +2286,7 @@ static void tbpf_ul(module_id_t module_id,
 
     return max;
   }
-  int TokenBank[] = {0,0};
+  int TokenBank[] = {0,0,0,0,0,0,0,0};
   const int CC_id = 0;
   gNB_MAC_INST *nrmac = RC.nrmac[module_id];
   NR_ServingCellConfigCommon_t *scc = nrmac->common_channels[CC_id].ServingCellConfigCommon;
@@ -2544,7 +2544,7 @@ static void tbpf_ul(module_id_t module_id,
 
     // TOKEN SYSTEM
 
-    uint32_t token_increment = sched_ctrl->premium_subscriber ? 8 : 3;
+    uint32_t token_increment = sched_ctrl->premium_subscriber ? 8 : 2;
     sched_ctrl->token_count += token_increment;
 
     TokenBank[ID-1] = sched_ctrl->token_count;
@@ -2556,9 +2556,9 @@ static void tbpf_ul(module_id_t module_id,
       continue;
     }
 
-    LOG_I(NR_MAC, "[UL] Tokens for UE 1 : %d, Tokens for UE 2 : %d, So the largest is %d\n", TokenBank[0], TokenBank[1], largest(TokenBank, 2));
+    LOG_I(NR_MAC, "[UL] Tokens for UE 1 : %d, Tokens for UE 2 : %d, So the largest is %d\n", TokenBank[0], TokenBank[1], largest(TokenBank, 8));
 
-    if (sched_ctrl->token_count >= token_threshold && TokenBank[ID-1] == largest(TokenBank, 2)) {
+    if (sched_ctrl->token_count >= token_threshold && TokenBank[ID-1] == largest(TokenBank, 8)) {
 
 
       NR_beam_alloc_t beam = beam_allocation_procedure(&nrmac->beam_info, sched_frame, sched_slot, iterator->UE->UE_beam_index, slots_per_frame);

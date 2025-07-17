@@ -1188,7 +1188,7 @@ static void tbpf_dl(module_id_t module_id,
       int ID = ue_id.secondary_ue;
 
       sched_ctrl->premium_subscriber = (ID % 2 == 0); // Pair = Premium
-      float bonus = sched_ctrl->premium_subscriber ? 10.0f : 3.0f;
+      float bonus = sched_ctrl->premium_subscriber ? 8.0f : 2.0f;
       coeff_ue *= bonus;
 
       UE_sched[curUE].coef = coeff_ue;
@@ -1233,7 +1233,7 @@ static void tbpf_dl(module_id_t module_id,
       continue;
     }
 
-    LOG_I(NR_MAC, "[DL] Tokens for UE 1 : %d, Tokens for UE 2 : %d, So the largest is %d\n", TokenBank[0], TokenBank[1], largest(TokenBank, 2));
+    LOG_I(NR_MAC, "[DL] Tokens for UE 1 : %d, Tokens for UE 2 : %d, So the largest is %d\n", TokenBank[0], TokenBank[1], largest(TokenBank, 8));
 
     if (sched_ctrl->token_count >= token_threshold && TokenBank[ID-1] == largest(TokenBank, 8)) {
 
