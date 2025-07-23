@@ -1188,7 +1188,7 @@ static void tbpf_dl(module_id_t module_id,
       int ID = ue_id.secondary_ue;
 
       sched_ctrl->premium_subscriber = (ID % 2 == 0); // Pair = Premium
-      float bonus = sched_ctrl->premium_subscriber ? 8.0f : 2.0f;
+      float bonus = sched_ctrl->premium_subscriber ? 40.0f : 20.0f;
       coeff_ue *= bonus;
 
       UE_sched[curUE].coef = coeff_ue;
@@ -1221,7 +1221,7 @@ static void tbpf_dl(module_id_t module_id,
 
     // TOKEN SYSTEM
 
-    uint32_t token_increment = sched_ctrl->premium_subscriber ? 8 : 2;
+    uint32_t token_increment = sched_ctrl->premium_subscriber ? 40 : 20;
     sched_ctrl->token_count += token_increment;
 
     TokenBank[ID-1] = sched_ctrl->token_count;

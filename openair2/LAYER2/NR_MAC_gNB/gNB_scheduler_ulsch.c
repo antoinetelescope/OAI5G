@@ -2544,7 +2544,7 @@ static void tbpf_ul(module_id_t module_id,
 
     // TOKEN SYSTEM
 
-    uint32_t token_increment = sched_ctrl->premium_subscriber ? 8 : 2;
+    uint32_t token_increment = sched_ctrl->premium_subscriber ? 40 : 20;
     sched_ctrl->token_count += token_increment;
 
     TokenBank[ID-1] = sched_ctrl->token_count;
